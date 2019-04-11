@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <script>
+
+
+        function foot(ft) {
+            m = ft * 0.305;
+            return m;
+        }
+        function meter(mt) {
+            f = mt * 3.279;
+            return f;
+        }
+        let ft = parseFloat(prompt('Nhập giá trị feet: '));
+        let mt = parseFloat(prompt('Nhập giá trị meter: '));
+        document.write('Giá trị được đổi từ foot->meter là: '+foot(ft));
+        document.write('<br>Giá trị được đổi từ foot->meter là: '+meter(mt));
+    </script>
+</body>
+</html>
